@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_black">
+
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:text="@string/pingpong"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_game"
+            android:textColor="@color/black"
+            android:shadowColor="@color/white"
+            android:shadowRadius="@android:integer/config_shortAnimTime"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:layout_centerInParent="true"
+            android:background="@color/white"/>
+    </RelativeLayout>
+
+</RelativeLayout>
